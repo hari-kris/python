@@ -23,6 +23,7 @@ def armstrong_number_checker(number):
     else:
         return False
 
+
 if __name__ == '__main__':
     print(armstrong_number_checker(370))
     print(armstrong_number_checker(121))
