@@ -15,7 +15,7 @@ def compute_factorial(number):
 def compute_binomial_coefficient(n, r):
     return compute_factorial(n) / (compute_factorial(r) * compute_factorial(n-r))
 
-    
+
 if __name__ == '__main__':
     # print(compute_factorial(120))
     print(compute_binomial_coefficient(7,2))
